@@ -1,4 +1,10 @@
-# Effects of pre-existing conditions on COVID hospitalization and mortality rates
+# Effects of pre-existing health conditions on COVID19 hospitalization and mortality rates
+
+Intro
+
+For this project, I created a website using R shiny to explore the relationship between pre-existing health conditions and the number of hospitalization and mortality cases across each state in the US. While there are numerous projects online that track the number of COVID19 cases on a global scale, I wanted to do something more than a superficial analysis on the number of COVID19 cases and examine the underlying health factors that potentially contribute towards the rise of COVID19 hospitalization and death rates. Using a combination of ggplot and plotly packages, I built a dynamic and interactive website where the user can navigate through COVID19 and health data visualizations. 
+
+Under the summary tab of the website, both the choropleth map and the line chart display the number of hospitalization or mortality cases in each state to which the user can choose between the two options under the drop down tab under "Select Item to Display". Here, I chose to focus on the hospitalization and mortality rates rather than the overall confirmed cases because my primary research question specifically sought to answer how pre-existing conditions might affect the rate of severe COVID cases. Based on the available scientific literature, the general consensus within the science community is that people who develop severe symptoms usually have underlying health conditions that make them more susceptible to death by COVID19 whereas healthy people generally display little to no symptoms at all. Therefore, I believed that the hospitalization and mortality rates were more accurate representations of "severe" COVID19 cases than the overall confirmed COVID cases. As we can see from the line plots for hospitalization rates below, the states exhibit a sinusoidal trend with the latest trend showing a dramatic rise in COVID hospitalization rates across most states as expected. On the brighter side, the death rates show a logarithmic trend where the death toll seems to be flattening out in the past few recent months. This is most likely due to better treatment protocols developed over time since the onset of the virus. 
 
 
 https://thomaskim.shinyapps.io/covid_project1_shiny/
